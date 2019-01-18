@@ -1,3 +1,12 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .main {
     background-image: url("../img/btn_trevoga.jpg");
     background-position: center center;
@@ -10,4 +19,139 @@
     background-color: rgba(0, 0, 0, 0.8);
     padding-top: 120px;
     padding-bottom: 62px;
+}
+
+.card-form {
+    background-color: rgba(240, 240, 240, 0.87);
+    border-color: rgb(216, 216, 216);
+    border-radius: 10px;
+    color: rgb(48, 48, 48);
+}
+
+#uslugi .card-body img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.bg-orange {
+    background-color: rgba(247, 175, 70, 0.8);
+    padding-top: 120px;
+    padding-bottom: 120px;
+    width: 100%;
+}
+
+#advantage .container-fluid {
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../img/man.jpg');
+    overflow: visible;
+}
+
+#advantage .card {
+    border: none!important;
+    background-color: initial;
+}
+
+#advantage .card img {
+    width: 50px;
+    height: 50px;
+}
+
+#advantage .card p {
+    font-size: 14px;
+}
+
+.my-btn-h {
+    background-color: rgb(247, 176, 70);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-style: solid;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-color: rgb(243, 150, 11);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.my-btn-form {
+    background-color: rgb(247, 176, 70);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-style: solid;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-color: rgb(243, 150, 11);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(8, 76, 97);
+}
+
+.my-btn-black {
+    background-color: rgb(0, 0, 0);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-style: solid;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-color: rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(247, 176, 70);
+}
+
+.contact {
+    background-color: rgb(26, 26, 26);
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    background-color: rgb(41, 41, 41);
+    color: rgb(255, 255, 255);
+}
+
+#workwork .card-header {
+    background-color: inherit;
+    border: none;
+    font-size: 48px;
+    color: rgb(215, 215, 215);
+}
+
+#workwork .card {
+    border: inherit;
+}
+
+#workwork .card-body .card-title {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#workwork .card-body .card-text {
+    font-size: 14px;
 }

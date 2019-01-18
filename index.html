@@ -24,7 +24,7 @@
 <body>
 <header>
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light font-weight-bold">
             <a class="navbar-brand" href="#">ОПС Сервис</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,43 +47,47 @@
                     </li>
                 </ul>
             </div>
-            <button class="btn btn-outline-success" type="button">Заказать звонок</button>
+            <button class="btn my-btn-h" type="button">Заказать звонок</button>
         </nav>
     </div>
 </header>
 <section class="main">
-    <div class="container main-body">
-        <div class="row">
-            <div class="col sec-first-h">
-                <h1 class="">Монтаж и обслуживание пожарной сигнализации и видеонаблюдения в Чувашии</h1>
-                <p class="p-3">Мы делаем качественную установку и текущее обслуживание (включая ремонтные работы) всех
-                    типов
-                    пожарно-охранных сигнализаций жилых и офисных помещений, квартир и частных домов с оповещением
-                    заказчика. Вы можете вызвать специалистов на бесплатную консультацию , посоветоваться с ними.</p>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Пригласить специалиста на консультацию</h5>
-                        <div class="card-text">
-                            <form>
-                                <div class="form-group">
-                                    <label for="fio">Выше имя <span class="text-danger">*</span></label>
-                                    <input type="text" class="form-control" id="fio" required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="phone">Ваш номер телефон <span class="text-danger">*</span></label>
-                                    <input type="text" class="form-control" id="phone" required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="msg">Ваше сообщение</label>
-                                    <input type="text" class="form-control" id="msg">
-                                </div>
-                                <div class="text-center p-3">
+    <div class="container-fluid main-body">
+        <div class="container">
 
-                                    <button type="submit" class="btn btn-primary">Пригласить специалиста</button>
-                                </div>
-                            </form>
+            <div class="row">
+                <div class="col sec-first-h">
+                    <h1 class="">Монтаж и обслуживание пожарной сигнализации и видеонаблюдения в Чувашии</h1>
+                    <p class="p-3">Мы делаем качественную установку и текущее обслуживание (включая ремонтные работы)
+                        всех
+                        типов
+                        пожарно-охранных сигнализаций жилых и офисных помещений, квартир и частных домов с оповещением
+                        заказчика. Вы можете вызвать специалистов на бесплатную консультацию , посоветоваться с
+                        ними.</p>
+                </div>
+                <div class="col">
+                    <div class="card card-form w-75 ml-auto">
+                        <div class="card-body">
+                            <h5 class="card-title">Пригласить специалиста на консультацию</h5>
+                            <div class="card-text">
+                                <form class="form-spec" action="">
+                                    <div class="form-group">
+                                        <label for="fio">Выше имя <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="fio" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="phone">Ваш номер телефон <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="phone" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="msg">Ваше сообщение</label>
+                                        <input type="text" class="form-control" id="msg">
+                                    </div>
+                                    <div class="text-center p-3">
+                                        <button type="submit" class="btn my-btn-form">Пригласить специалиста</button>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -95,11 +99,11 @@
 <section class="uslugi" id="uslugi">
     <div class="container">
         <h1 class="text-uppercase text-center p-5">Наши услуги</h1>
-        <div class="card-deck">
+        <div class="card-deck m-3">
             <div class="card shadow">
                 <div class="card-body">
                     <div class="media">
-                        <img class="align-self-center" src=".../100px200/" alt="Card image cap">
+                        <img class="align-self-center" src="./img/fire-alarm.png">
                         <div class="media-body">
                             <h5>Монтаж автоматической пожарной сигнализации</h5>
                             <p>Наши специалисты производят монтаж систем пожарной сигнализации различной
@@ -113,7 +117,7 @@
             <div class="card shadow">
                 <div class="card-body">
                     <div class="media">
-                        <img class="align-self-center" src=".../100px200/" alt="Card image cap">
+                        <img class="align-self-center" src="./img/ladder.png">
                         <div class="media-body">
                             <h5 class="card-title">Испытание пожарных лестниц и ограждений крыш</h5>
                             <p class="card-text">Испытания пожарных лестниц необходимо проводить раз в пять лет, к таким
@@ -129,11 +133,11 @@
                 </div>
             </div>
         </div>
-        <div class="card-deck">
+        <div class="card-deck m-3">
             <div class="card shadow">
                 <div class="card-body">
                     <div class="media">
-                        <img class="align-self-center" src=".../100px200/" alt="Card image cap">
+                        <img class="align-self-center" src="./img/house-things.png">
                         <div class="media-body">
                             <h5 class="card-title">Проверка дымовых и вентиляционных каналов</h5>
                             <p class="card-text">
@@ -148,7 +152,7 @@
             <div class="card shadow">
                 <div class="card-body">
                     <div class="media">
-                        <img class="align-self-center" src=".../100px200/" alt="Card image cap">
+                        <img class="align-self-center" src="./img/cctv.png">
                         <div class="media-body">
                             <h5 class="card-title">Монтаж систем видеонаблюдения</h5>
                             <p class="card-text">
@@ -162,11 +166,11 @@
             </div>
 
         </div>
-        <div class="card-deck">
+        <div class="card-deck m-3">
             <div class="card shadow">
                 <div class="card-body">
                     <div class="media">
-                        <img class="align-self-center" src=".../100px200/" alt="Card image cap">
+                        <img class="align-self-center" src="./img/fire-alarm_1.png">
                         <div class="media-body">
                             <h5 class="card-title">Периодическое техническое обслуживание систем дымоудаления и пожарной
                                 сигнализации</h5>
@@ -189,7 +193,7 @@
             <div class="card shadow">
                 <div class="card-body">
                     <div class="media">
-                        <img class="align-self-center" src=".../100px200/" alt="Card image cap">
+                        <img class="align-self-center" src="./img/hydrant.png">
                         <div class="media-body">
                             <h5 class="card-title">Испытания внутреннего противопожарного водопровода (пожарных кранов
                                 или
@@ -215,73 +219,77 @@
 
         </div>
         <div class="text-center p-5">
-            <button class="btn btn-primary">Отправить заявку</button>
+            <button class="btn my-btn-form">Отправить заявку</button>
         </div>
     </div>
 </section>
 
 <section class="advantage" id="advantage">
-    <div class="container">
-        <h1 class="text-uppercase text-center p-5">Почему мы?</h1>
-        <div class="card-deck">
-            <div class="card">
-                <div class="card-body">
-                    <div class="media">
-                        <img class="align-self-center" src=".../100px200/" alt="Card image cap">
-                        <div class="media-body">
-                            <h5 class="card-title">Большой опыт</h5>
-                            <p class="card-text">
-                                Наш опыт в сфере систем противопожарной защиты 10 лет
-                            </p>
-                        </div>
-                    </div>
+    <div class="container-fluid">
+        <div class="bg-orange">
+            <div class="container">
+                <h1 class="text-uppercase text-center p-5 font-weight-bold">Почему мы?</h1>
+                <div class="card-deck m-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="media">
+                                <img class="align-self-center mr-3" src="./img/check-mark.png">
+                                <div class="media-body">
+                                    <h5 class="card-title font-weight-bold">Большой опыт</h5>
+                                    <p class="card-text text-muted">
+                                        Наш опыт в сфере систем противопожарной защиты 10 лет
+                                    </p>
+                                </div>
+                            </div>
 
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <div class="media">
-                        <img class="align-self-center" src=".../100px200/" alt="Card image cap">
-                        <div class="media-body">
-                            <h5 class="card-title">Оперативность</h5>
-                            <p class="card-text">
-                                Наши специалисты в кратчайшие сроки свяжутся с Вами и приступят к работе
-                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="media">
+                                <img class="align-self-center mr-3" src="./img/check-mark.png">
+                                <div class="media-body">
+                                    <h5 class="card-title font-weight-bold">Оперативность</h5>
+                                    <p class="card-text text-muted">
+                                        Наши специалисты в кратчайшие сроки свяжутся с Вами и приступят к работе
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="card-deck">
-            <div class="card">
-                <div class="card-body">
-                    <div class="media">
-                        <img class="align-self-center" src=".../100px200/" alt="Card image cap">
-                        <div class="media-body">
-                            <h5 class="card-title">Команда</h5>
-                            <p class="card-text">
-                                Команда состоит из отличных специалистов
-                            </p>
+                <div class="card-deck m-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="media">
+                                <img class="align-self-center mr-3" src="./img/check-mark.png">
+                                <div class="media-body">
+                                    <h5 class="card-title font-weight-bold">Команда</h5>
+                                    <p class="card-text text-muted">
+                                        Команда состоит из отличных специалистов
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="media">
+                                <img class="align-self-center mr-3" src="./img/check-mark.png">
+                                <div class="media-body">
+                                    <h5 class="card-title font-weight-bold">Качество</h5>
+                                    <p class="card-text text-muted">
+                                        Выполняем работы по всем ГОСТам и предоставляем гарантию
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <div class="media">
-                        <img class="align-self-center" src=".../100px200/" alt="Card image cap">
-                        <div class="media-body">
-                            <h5 class="card-title">Качество</h5>
-                            <p class="card-text">
-                                Выполняем работу по
-                            </p>
-                        </div>
-                    </div>
+                <div class="text-center p-5">
+                    <button class="btn my-btn-black">Отправить заявку</button>
                 </div>
             </div>
-        </div>
-        <div class="text-center p-5">
-            <button class="btn btn-primary">Отправить заявку</button>
         </div>
     </div>
 </section>
@@ -290,27 +298,27 @@
     <div class="container">
         <h1 class="text-uppercase text-center p-5">Как мы работаем</h1>
         <div class="card-deck">
-            <div class="card">
+            <div class="card text-center">
                 <div class="card-header">01</div>
-                <div class="card-body">
+                <div class="card-body  shadow">
                     <h6 class="card-title">Отправка заявки</h6>
                     <p class="card-text">
                         Позвоните нам или напишите подробно о том, что вы хотите и мы ответим в течение 1 рабочего дня
                     </p>
                 </div>
             </div>
-            <div class="card">
+            <div class="card  text-center">
                 <div class="card-header">02</div>
-                <div class="card-body">
+                <div class="card-body shadow">
                     <h6 class="card-title">Подготовка к работе</h6>
                     <p class="card-text">
                         Встреча со специалистом, утверждение сметы и подписание договора
                     </p>
                 </div>
             </div>
-            <div class="card">
+            <div class="card text-center">
                 <div class="card-header">03</div>
-                <div class="card-body">
+                <div class="card-body shadow">
                     <h6 class="card-title">Завершение работ</h6>
                     <p class="card-text">
                         Пусконаладка и приём работ заказчиком
@@ -319,36 +327,27 @@
             </div>
         </div>
         <div class="text-center p-5">
-            <button class="btn btn-primary">Отправить заявку</button>
+            <button class="btn my-btn-form">Отправить заявку</button>
         </div>
     </div>
 </section>
 
 <section class="contact" id="contact">
     <div class="container">
-        <div class="card-deck">
-
-            <div class="card">
-                <div class="card-body">
-                    <h6 class="card-title">Адрес:</h6>
-                    <p class="card-text">
-                        г. Чебоксары, ул. Ленинского Комсомола д.5
-                    </p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
+        <div class="row">
+            <div class="col">
+                <div class="card-body text-center">
                     <h6 class="card-title">Телефон:</h6>
                     <p class="card-text">
                         +7 900 330 0353
                     </p>
                 </div>
             </div>
-            <div class="card">
-                <div class="card-body">
+            <div class="col">
+                <div class="card-body text-center">
                     <h6 class="card-title">Почта:</h6>
                     <p class="card-text">
-                        почта
+                        <a href="mailto:info@opsservise21.ru" class="text-white">info@opsservise21.ru</a>
                     </p>
                 </div>
             </div>
@@ -360,18 +359,18 @@
 <footer>
     <div class="container">
         <div class="row">
+            <!--<div class="col">-->
+                <!--<div class="p-5">-->
+                    <!--<ul class="list-unstyled list-inline">-->
+                        <!--<li class="list-inline-item">tw</li>-->
+                        <!--<li class="list-inline-item">vk</li>-->
+                        <!--<li class="list-inline-item">facebook</li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+            <!--</div>-->
             <div class="col">
-                <div class="p-5">
-                    <ul class="list-unstyled list-inline">
-                        <li class="list-inline-item">tw</li>
-                        <li class="list-inline-item">vk</li>
-                        <li class="list-inline-item">facebook</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col">
-                <div class="p-5">
-                    <button class="btn btn-primary">Отправить заявку</button>
+                <div class="p-5 text-center">
+                    <button class="btn my-btn-form">Отправить заявку</button>
                 </div>
             </div>
         </div>
