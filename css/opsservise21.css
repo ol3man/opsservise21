@@ -50,7 +50,7 @@ body {
 }
 
 #advantage .card {
-    border: none!important;
+    border: none !important;
     background-color: initial;
 }
 
@@ -60,7 +60,9 @@ body {
 }
 
 #advantage .card p {
-    font-size: 14px;
+    font-size: 16px;
+    color: #434343;
+    font-weight: 400;
 }
 
 .my-btn-h {
